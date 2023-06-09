@@ -1,0 +1,42 @@
+
+.card {
+    height: 100%;
+    background-color: #f8f9fa;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+    
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+  
+  }
+  
+  .card-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .product-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-rating,
+  .product-price {
+    margin-top: auto;
+    color: #555;
+  }
+  
